@@ -2,7 +2,7 @@
 
 ### Install git
 
-``` sh
+```shell
 sudo apt-get install git-core
 ```
 

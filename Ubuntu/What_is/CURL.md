@@ -12,7 +12,7 @@
 * -d : 요청 본문을 지정 (옵션 없으면 요청 본문 없음)
 
 #### 예제
-``` shell
+```bash
 $ curl -X GET http://127.0.0.1:3000/api/users/bakyeono
 $ curl -X POST http://127.0.0.1:3000/api/languages/ansi-common-lisp
 $ curl -X PUT http://127.0.0.1:3000/api/resources/1789

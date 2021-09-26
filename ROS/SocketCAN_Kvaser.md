@@ -41,4 +41,4 @@ candump can0
 ```shell
 rosrun socketcan_bridge socketcan_bridge_node
 ```
-> Does canopen package need to be built?
+> canopen package needs to be built before execute above command.

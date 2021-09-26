@@ -5,10 +5,12 @@ sudo apt-get install net-tools
 sudo apt-get install libmuparser-dev
 ```
 
+
 # 2. Download ros_canopen package
 ```shell
 git clone https://github.com/ros-industrial/ros_canopen.git
 ```
+
 
 # 3. Connect Kvaser to PC
 **After connect Kvaser to PC**
@@ -33,6 +35,7 @@ sudo ifconfig can0 up
 ```shell
 candump can0
 ```
+
 
 # 4. Publish CAN raw data to ROS
 ```shell

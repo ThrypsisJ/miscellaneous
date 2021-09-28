@@ -3,7 +3,7 @@ Changes name of executed python process
 
 ## install
 ```shell
-pip3 install setproctitle
+$ pip3 install setproctitle
 ```
 
 ## example

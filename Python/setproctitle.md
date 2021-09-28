@@ -2,8 +2,8 @@
 Changes name of executed python process
 
 ## install
-```console
-User$Ubuntu:~$ pip3 install setproctitle
+```shell
+pip3 install setproctitle
 ```
 
 ## example

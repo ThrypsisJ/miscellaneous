@@ -38,9 +38,7 @@ cd {folder name}
 % at working folder
 git init
 ```
-
-
-
+\
 ## Connect to GitHub
 
 ### Regist origin(remote storage)

@@ -55,6 +55,11 @@ sudo git remote add origin {remote address}
 git remote -v
 ```
 
+### Remove origin
+```shell
+git remote remove origin
+```
+
 ### Add folder and check status
 
 ```shell
@@ -68,10 +73,17 @@ git status
 git commit -m "Describe commit contents"
 ```
 
+## Branch
+
 ### Create branch
 
 ```shell
 git branch {branch_name}
+```
+
+### Delete branch
+```shell
+git branch -d {branch_name}
 ```
 
 ### Move git head to branch
@@ -80,7 +92,13 @@ git branch {branch_name}
 git checkout {branch_name}
 ```
 
-### Check log
+### Merge branches
+```shell
+git checkout {main_branch}
+git merge {branch_name}
+```
+
+## Check log
 
 ```shell
 git log --oneline --decorate

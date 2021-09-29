@@ -38,7 +38,8 @@ cd {folder name}
 % at working folder
 git init
 ```
-  
+</br>
+
 ## Connect to GitHub
 
 ### Regist origin(remote storage)
@@ -70,6 +71,7 @@ git status
 ```shell
 git commit -m "Describe commit contents"
 ```
+</br>
 
 ## Branch
 
@@ -95,6 +97,7 @@ git checkout {branch_name}
 git checkout {main_branch}
 git merge {branch_name}
 ```
+</br>
 
 ## Check log
 

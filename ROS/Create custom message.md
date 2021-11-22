@@ -9,7 +9,8 @@ vi <message_name>.msg
 
 ## Modify CMakeList.txt
 ```cmake
-find_package(catkin REQUIRED COMPONENTS
+find_package(catkin
+  REQUIRED COMPONENTS
   message_generation
 )
 

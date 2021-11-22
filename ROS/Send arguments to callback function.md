@@ -13,7 +13,7 @@ ros::Subscriber sub = n.subscribe<Message type>("Topic name", Queue_size, boost:
 
 * If compiler can't find **boost** library
 in CMakeList.txt
-```
+```cmake
 find_package(Boost REQUIRED COMPONENTS thread)
 include_directories($(Boost_INCLUDE_DIRS))
 ```

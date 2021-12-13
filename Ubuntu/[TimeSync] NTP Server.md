@@ -25,5 +25,5 @@ fudge   127.127.1.0
 restrict  default
 ...
 # broadcast setting
-broadcast 192.168.10.* # for Nerian Scarlet 3D
+broadcast 192.168.10.0 # for Nerian Scarlet 3D
 ```
